@@ -1,0 +1,32 @@
+.stock-ticker {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .date-container {
+        width: 500px;
+        margin-left: 30px;
+
+        .change-percent,
+        .change-price,
+        .change {
+            &.positive {
+                color: #26a69a;
+            }
+
+            &.negative {
+                color: #ef5350;
+            }
+        }
+
+        .currency {
+            color: #000;
+            margin-left: 5px;
+        }
+
+        span {
+            margin-left: 20px;
+        }
+    }
+}

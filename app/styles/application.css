@@ -1,0 +1,27 @@
+.stock-ticker {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stock-ticker .date-container {
+  width: 500px;
+  margin-left: 30px;
+}
+.stock-ticker .date-container .change-percent.positive,
+.stock-ticker .date-container .change-price.positive,
+.stock-ticker .date-container .change.positive {
+  color: #26a69a;
+}
+.stock-ticker .date-container .change-percent.negative,
+.stock-ticker .date-container .change-price.negative,
+.stock-ticker .date-container .change.negative {
+  color: #ef5350;
+}
+.stock-ticker .date-container .currency {
+  color: #000;
+  margin-left: 5px;
+}
+.stock-ticker .date-container span {
+  margin-left: 20px;
+}
